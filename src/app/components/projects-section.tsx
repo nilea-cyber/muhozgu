@@ -7,8 +7,8 @@ const projects = [
     title: "Support Ticket Dashboard",
     description: "An interactive dashboard built to visualize support ticket trends, response times, and resolution rates. This project helped identify bottlenecks in our support workflow and reduced average response time by 30%.",
     image: "https://images.unsplash.com/photo-1748609160056-7b95f30041f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwZGFzaGJvYXJkJTIwYW5hbHl0aWNzfGVufDF8fHx8MTc2NjQ2NjA1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    mainTech: "Tableau",
-    tags: ["Data Visualization", "SQL", "Analytics"],
+    mainTech: "Power BI",
+    tags: ["Data Visualization", "SQL", "Analytics", "EDA"],
   },
   {
     title: "Customer Insights ML Model",

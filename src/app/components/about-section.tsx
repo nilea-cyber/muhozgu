@@ -8,9 +8,13 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="mb-4 text-slate-900">About Me</h2>
           <p className="text-slate-600 max-w-3xl mx-auto">
-            I'm a Computer Science student who discovered my passion for data analytics 
-            through real-world customer support experience. I bridge the gap between technical 
-            skills and business needs, turning raw data into actionable insights.
+            Drive customer satisfaction through expert support and technical troubleshooting, 
+            leveraging strong analytical skills and experience in data analysis. Proven ability to resolve 
+            complex issues efficiently while maintaining positive customer relationships and 
+            compliance standards. Skilled in using advanced tools such as Zendesk, Salesforce, and 
+            AWS to optimize workflows and enhance service quality. Seeking to apply technical 
+            expertise and client management skills to elevate customer experience in a dynamic 
+            support environment.
           </p>
         </div>
 
@@ -22,8 +26,7 @@ export function AboutSection() {
               </div>
               <h3 className="text-slate-900 mb-2">Education</h3>
               <p className="text-slate-600">
-                Pursuing BS in Computer Science with a focus on Data Analytics. 
-                Currently maintaining a 3.8 GPA while gaining practical experience through internships.
+                Pursuing Bachelor of Engineering in Computer Science with a focus on Artificial Intelligence and Data Science. 
               </p>
             </CardContent>
           </Card>
@@ -35,8 +38,8 @@ export function AboutSection() {
               </div>
               <h3 className="text-slate-900 mb-2">Career Goals</h3>
               <p className="text-slate-600">
-                Seeking opportunities to leverage data analytics and software development skills 
-                to solve real business problems and drive data-informed decision making.
+                Seeking opportunities to apply technical, analytical, and problem-solving skills to support users, 
+                resolve system issues, and contribute to data-informed decision making in a technology-driven environment.
               </p>
             </CardContent>
           </Card>
@@ -48,8 +51,8 @@ export function AboutSection() {
               </div>
               <h3 className="text-slate-900 mb-2">What I Bring</h3>
               <p className="text-slate-600">
-                Unique combination of technical expertise, customer empathy, and analytical thinking. 
-                I excel at translating complex data into clear, actionable insights.
+                I bring a unique combination of technical skills, customer-focused communication, and analytical thinking.
+                 I am effective at understanding complex problems and translating technical or data-driven insights into clear, actionable solutions for users and stakeholders.
               </p>
             </CardContent>
           </Card>

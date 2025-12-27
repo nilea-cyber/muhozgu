@@ -23,7 +23,7 @@ export function ExperienceSummary() {
   return (
     <section className="py-16 px-6 bg-slate-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="mb-10 text-slate-900">My Journey</h2>
+        <h2 className="mb-10 text-3xl font-bold text-slate-900">My Journey</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {experiences.map((exp) => (
             <Card key={exp.title} className="border-slate-200">

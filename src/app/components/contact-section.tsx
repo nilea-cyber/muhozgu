@@ -42,7 +42,7 @@ export function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-[#2563EB] bg-opacity-10 flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-[#2563EB]" />
+                    <Mail className="w-6 h-6 text-[#ffffff]" />
                   </div>
                   <div>
                     <p className="text-slate-900">Email</p>
@@ -54,11 +54,21 @@ export function ContactSection() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-[#2563EB] bg-opacity-10 flex items-center justify-center flex-shrink-0">
-                    <Globe className="w-6 h-6 text-[#2563EB]" />
+                    <Globe className="w-6 h-6 text-[#ffffff]" />
                   </div>
                   <div>
                     <p className="text-slate-900">Location</p>
-                    <p className="text-slate-600">San Francisco, CA</p>
+                    <p className="text-slate-600">Warsaw, PL</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-[#2563EB] bg-opacity-10 flex items-center justify-center flex-shrink-0">
+                    <Globe className="w-6 h-6 text-[#ffffff]" />
+                  </div>
+                  <div>
+                    <p className="text-slate-900">Phone</p>
+                    <p className="text-slate-600">+48 880 998 </p>
                   </div>
                 </div>
               </div>
@@ -67,8 +77,8 @@ export function ContactSection() {
             <div className="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-slate-50 border-2 border-slate-100">
               <h4 className="text-slate-900 mb-2">Open to Opportunities</h4>
               <p className="text-slate-600">
-                I'm currently seeking internship and entry-level positions in data analytics, 
-                business intelligence, or software development. Let's talk!
+                I'm currently seeking <span className="bg-green-300">internships</span> and entry-level positions in <span className="bg-green-300">Technical Support Analytics, Applications Support Analytics, Data Analytics, 
+                business intelligence or software development</span>. Let's talk!
               </p>
             </div>
           </div>

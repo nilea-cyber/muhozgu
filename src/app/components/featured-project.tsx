@@ -18,7 +18,7 @@ export function FeaturedProject() {
           <CardHeader>
             <div className="flex items-start justify-between">
               <CardTitle className="text-slate-900">Support Ticket Dashboard</CardTitle>
-              <Badge className="bg-[#2563EB] hover:bg-[#1d4ed8]">Tableau</Badge>
+              <Badge className="bg-[#2563EB] hover:bg-[#1d4ed8]">Power BI</Badge>
             </div>
           </CardHeader>
           <CardContent>

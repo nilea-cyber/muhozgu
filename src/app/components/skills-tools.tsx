@@ -1,27 +1,32 @@
 import { Badge } from "./ui/badge";
-import { Code, Database, BarChart, Wrench } from "lucide-react";
+import { Braces, ChartPie, Wrench, Handshake, Languages } from "lucide-react";
 
 const skillCategories = [
   {
-    icon: Code,
+    icon: Braces,
     title: "Programming",
-    skills: ["Python", "SQL", "JavaScript", "Git"],
+    skills: ["Python", "SQL", "JavaScript", "Java", "XML", "Git", " REST API", ".NET", "Big Query"],
   },
   {
-    icon: BarChart,
+    icon: ChartPie,
     title: "Data & Analytics",
-    skills: ["Tableau", "Excel", "Data Visualization", "Statistics"],
-  },
-  {
-    icon: Database,
-    title: "Tools & Platforms",
-    skills: ["Zendesk", "Pandas", "NumPy", "Jupyter"],
+    skills: ["Power BI", "Excel", "Data Visualization", "Statistics", "Exploratory Data Analysis"],
   },
   {
     icon: Wrench,
-    title: "Soft Skills",
-    skills: ["Customer Success", "Problem Solving", "Communication", "Team Work"],
+    title: "Tools & Platforms",
+    skills: ["Zendesk", "Salesforce", "Google Docs", "Linux", "macOS", "SAP/ERP", "Zoom", "Pandas", "NumPy", "Jupyter"],
   },
+  {
+    icon: Handshake,
+    title: "Soft Skills",
+    skills: ["Customer Success", "Problem Solving", "Story Telling", "CRM", "Troubleshooting", "Communication", "Team Work", "Adaptability", "Time Management"],
+  },
+  {
+    icon: Languages,
+    title: "Languages",
+    skills: ["English", "French", "Kirundi", "Swahili", "Polish", "Danish"],
+  }
 ];
 
 export function SkillsTools() {
@@ -43,7 +48,7 @@ export function SkillsTools() {
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-lg bg-[#2563EB] bg-opacity-10 flex items-center justify-center">
-                  <category.icon className="w-6 h-6 text-[#2563EB]" />
+                  <category.icon className="w-6 h-6 text-[#ffffff]" />
                 </div>
                 <h3 className="text-slate-900">{category.title}</h3>
               </div>

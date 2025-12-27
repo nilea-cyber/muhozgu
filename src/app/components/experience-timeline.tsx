@@ -1,36 +1,42 @@
-import { Headphones, MessageSquare, BarChart, Code } from "lucide-react";
+// import { Headphones, MessageSquare, BarChart, Code } from "lucide-react";
+import vizjaLogo from "../../../vizjaLogo.png";
+import brainrocktetLogo from "../../../broLogo.png";
+import tolokaLogo from "../../../tolokaLogo.jpg";
+import telepLogo from "../../../telepLogo.png";
+
 import { Card, CardContent } from "./ui/card";
+import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const experiences = [
   {
-    icon: Code,
+    icon: vizjaLogo,
     title: "Computer Science Student",
-    company: "University",
-    period: "2022 - Present",
-    description: "Pursuing BS in Computer Science with focus on Data Analytics and Software Development. GPA: 3.8/4.0",
+    company: "University of Economics and Human Sciences in Warsaw - UEHS",
+    period: "2023",
+    description: "Pursuing BE in Computer Science with focus on Artificial Intelligence and Data Science",
     align: "right",
   },
   {
-    icon: BarChart,
-    title: "Data Analysis Intern",
-    company: "Tech Solutions Inc.",
-    period: "Summer 2023",
+    icon: tolokaLogo,
+    title: "Freelance Data Analyst (AI Training Data)",
+    company: "Toloka",
+    period: "Jun 2025 - Dec 2025",
     description: "Analyzed support metrics and created dashboards that improved team efficiency by 30%. Worked with SQL, Tableau, and Python.",
     align: "left",
   },
   {
-    icon: MessageSquare,
-    title: "Technical Support Specialist",
-    company: "CloudTech",
-    period: "2022 - 2023",
+    icon: brainrocktetLogo,
+    title: "Customer Support Agent",
+    company: "Brainrocket",
+    period: "May 2025 - Oct 2025",
     description: "Diagnosed and resolved complex technical issues. Maintained 95% customer satisfaction rate while handling 50+ tickets daily.",
     align: "right",
   },
   {
-    icon: Headphones,
-    title: "Customer Support Representative",
-    company: "StartupXYZ",
-    period: "2021 - 2022",
+    icon: telepLogo,
+    title: "Technical Support Specialist",
+    company: "Teleperformance",
+    period: "Sept 2023 - Feb 2025",
     description: "First point of contact for customer inquiries. Developed strong communication skills and product knowledge.",
     align: "left",
   },
@@ -38,7 +44,7 @@ const experiences = [
 
 export function ExperienceTimeline() {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-0 px-72 pt-35 bg-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="mb-16 text-center text-slate-900">My Journey</h2>
         
@@ -47,7 +53,7 @@ export function ExperienceTimeline() {
           <div className="absolute left-[0.4375rem] md:left-1/2 md:transform md:-translate-x-px top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#2563EB] to-slate-300"></div>
           
           {/* Timeline Items */}
-          <div className="space-y-12">
+          <div className="space-y-10">
             {experiences.map((exp, index) => (
               <div 
                 key={index}
@@ -56,16 +62,20 @@ export function ExperienceTimeline() {
                 }`}
               >
                 {/* Content Card - Mobile: always left, Desktop: alternates */}
-                <div className={`flex-1 md:w-5/12 ${exp.align === "right" ? "md:text-right" : "md:text-left"} text-left ml-12 md:ml-0`}>
+                <div className={`flex-1 md:w-5/12 ${exp.align === "right" ? "md:text-right" : "md:text-left"} text-left ml-12 md:ml-0 p-15`}>
                   <Card className="border-slate-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <CardContent className="pt-6">
                       <div className={`flex items-start gap-3 mb-3 ${exp.align === "right" ? "md:flex-row-reverse flex-row" : "md:flex-row flex-row"}`}>
-                        <div className="w-10 h-10 rounded-lg bg-[#2563EB] bg-opacity-10 flex items-center justify-center flex-shrink-0">
-                          <exp.icon className="w-5 h-5 text-[#2563EB]" />
+                        <div className="w-10 h-10 rounded-lg bg-opacity-10 flex items-center justify-center flex-shrink-0">
+                          <ImageWithFallback
+                src={exp.icon}
+                alt={exp.company}
+                className="w-auto h-auto object-cover"
+              />
                         </div>
                         <div className="flex-1">
                           <h3 className="text-slate-900">{exp.title}</h3>
-                          <p className="text-[#2563EB]">{exp.company}</p>
+                          <p className="text-[#9ea2a9]">{exp.company}</p>
                         </div>
                       </div>
                       <p className="text-slate-500 mb-3">{exp.period}</p>

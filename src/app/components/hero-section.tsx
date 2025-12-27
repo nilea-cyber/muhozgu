@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { GithubIcon, LinkedinIcon, Slack } from "lucide-react";
 
 
 export function HeroSection() {
@@ -31,41 +31,40 @@ export function HeroSection() {
               Hi, I'm <span className="text-[#2563EB]">Guy Brillant Muhoza</span>
             </h1>
             <p className="text-slate-600 mb-2">
-              Aspiring Data Engineer & AI/ML Enthusiast | Tech Founder @ Nilea
+              Technical Support/Application Support Analyst | SQL & Python | Power BI
             </p>
             <p className="text-slate-500 mb-6">
-              Computer Science student passionate about turning data into actionable insights. 
-              Combining technical expertise with customer-facing experience to build solutions that matter.
+              Computer Science student with experience in technical support, troubleshooting, SQL, and API-based systems in SaaS environments.
             </p>
             
             {/* Social Media Links */}
             <div className="flex gap-4 justify-center md:justify-start mb-8">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Muhozgu" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 title="GitHub"
                 className="w-10 h-10 rounded-full bg-white border-2 border-slate-200 flex items-center justify-center text-slate-600 hover:text-[#2563EB] hover:border-[#2563EB] transition-all duration-300 shadow-md hover:shadow-lg"
               >
-                <Github className="w-5 h-5" />
+                <GithubIcon className="w-5 h-5" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/muhozgu/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 title="LinkedIn"
                 className="w-10 h-10 rounded-full bg-white border-2 border-slate-200 flex items-center justify-center text-slate-600 hover:text-[#2563EB] hover:border-[#2563EB] transition-all duration-300 shadow-md hover:shadow-lg"
               >
-                <Linkedin className="w-5 h-5" />
+                <LinkedinIcon className="w-5 h-5" />
               </a>
               <a 
-                href="https://instagram.com" 
-                target="_blank" 
+                href="https://taskmanagemen-qc27955.slack.com/?redir=%2Fteam%2FU09SYPY82DV%3Fu%3DU09SYPY82DV" 
+                target="_blank"
                 rel="noopener noreferrer"
-                title="Instagram"
+                title="Slack"
                 className="w-10 h-10 rounded-full bg-white border-2 border-slate-200 flex items-center justify-center text-slate-600 hover:text-[#2563EB] hover:border-[#2563EB] transition-all duration-300 shadow-md hover:shadow-lg"
               >
-                <Instagram className="w-5 h-5" />
+                <Slack className="w-5 h-5" />
               </a>
             </div>
 
