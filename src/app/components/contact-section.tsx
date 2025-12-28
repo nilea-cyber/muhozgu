@@ -68,7 +68,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-slate-900">Phone</p>
-                    <p className="text-slate-600">+48 880 998 </p>
+                    <p className="text-slate-600">+48 880 998 985</p>
                   </div>
                 </div>
               </div>

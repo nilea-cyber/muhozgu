@@ -21,7 +21,7 @@ const experiences = [
     title: "Freelance Data Analyst (AI Training Data)",
     company: "Toloka",
     period: "Jun 2025 - Dec 2025",
-    description: "Analyzed support metrics and created dashboards that improved team efficiency by 30%. Worked with SQL, Tableau, and Python.",
+    description: "Analyzed support metrics and created dashboards that improved team efficiency by 30%. Worked with SQL, Power BI, and Python.",
     align: "left",
   },
   {
@@ -29,7 +29,7 @@ const experiences = [
     title: "Customer Support Agent",
     company: "Brainrocket",
     period: "May 2025 - Oct 2025",
-    description: "Diagnosed and resolved complex technical issues. Maintained 95% customer satisfaction rate while handling 50+ tickets daily.",
+    description: "First point of contact for customer inquiries. Developed strong communication skills and product knowledge.",
     align: "right",
   },
   {
@@ -37,7 +37,7 @@ const experiences = [
     title: "Technical Support Specialist",
     company: "Teleperformance",
     period: "Sept 2023 - Feb 2025",
-    description: "First point of contact for customer inquiries. Developed strong communication skills and product knowledge.",
+    description: "Diagnosed and resolved complex technical issues. Maintained 95% customer satisfaction rate while handling 50+ tickets daily.",
     align: "left",
   },
 ];
