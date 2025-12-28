@@ -5,7 +5,7 @@ import { SkillsTools } from "./components/skills-tools";
 import { ProjectsSection } from "./components/projects-section";
 import { CVSection } from "./components/cv-section";
 import { ContactSection } from "./components/contact-section";
-import { LanguageSelector } from "./components/language-selector";
+// import { LanguageSelector } from "./components/language-selector";
 import { ScrollToTop } from "./components/scroll-to-top";
 import { MobileMenu } from "./components/mobile-menu";
 import { useState, useEffect } from "react";
@@ -56,7 +56,7 @@ export default function App() {
             >
               Contact
             </a>
-            <LanguageSelector />
+            {/* <LanguageSelector /> */}
           </nav>
           <MobileMenu />
         </div>
