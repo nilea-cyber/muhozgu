@@ -3,13 +3,13 @@ import { AboutSection } from "./components/about-section";
 import { ExperienceTimeline } from "./components/experience-timeline";
 import { SkillsTools } from "./components/skills-tools";
 import { ProjectsSection } from "./components/projects-section";
-import { HobbiesSection } from "./components/hobbies-section";
 import { CVSection } from "./components/cv-section";
 import { ContactSection } from "./components/contact-section";
 import { LanguageSelector } from "./components/language-selector";
 import { ScrollToTop } from "./components/scroll-to-top";
 import { MobileMenu } from "./components/mobile-menu";
 import { useState, useEffect } from "react";
+import { FreeTimeChart } from "./components/free-time-chart";
 import { GithubIcon, Linkedin, Slack, PackageOpen } from "lucide-react";
 
 export default function App() {
@@ -69,7 +69,7 @@ export default function App() {
         <ExperienceTimeline />
         <SkillsTools />
         <ProjectsSection />
-        <HobbiesSection />
+        <FreeTimeChart />
         <CVSection />
         <ContactSection />
       </main>
